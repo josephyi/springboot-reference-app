@@ -1,6 +1,22 @@
 # springboot-reference-app
 Personal reference app for trying out things.
 
+## Quickstart
+
+As of writing, the app will run directly, and infra resources will run in Docker. 
+
+```
+# set Java environment via SDK 
+sdk env install
+
+# spin up infra
+docker-compose up
+
+# run app
+./gradlew bootRun
+```
+
+
 ## API Examples
 These are not RESTful and will likely change a lot over time:
 
