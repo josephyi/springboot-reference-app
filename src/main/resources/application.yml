@@ -13,4 +13,7 @@ spring:
    producer:
     key-serializer: org.apache.kafka.common.serialization.StringSerializer
     value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-
+logging:
+  structured:
+    format:
+      console: ecs
